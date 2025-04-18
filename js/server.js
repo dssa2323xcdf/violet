@@ -7,7 +7,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // Get API key from environment
 //const API_KEY = process.env.GEMINI_API_KEY;
-const API_KEY = "AIzaSyBzYCbp70IZNvyMGwp4D2kpiaHB0wDVXtM"; // Replace with your actual API key
+const API_KEY = ""; // Replace with your actual API key
 
 // Initialize the Gemini API
 const genAI = new GoogleGenerativeAI(API_KEY);
